@@ -46,7 +46,7 @@
         <dependency>
             <groupId>io.corbel</groupId>
             <artifactId>event-bus</artifactId>
-            <version>1.25.0</version>
+            <version>1.26.0-SNAPSOT</version>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
