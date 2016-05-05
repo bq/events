@@ -124,8 +124,4 @@ public class ResourceEvent extends EventWithSpecificDomain {
         return true;
     }
 
-    @Override
-    public String toString() {
-        return "ResourceEvent {\n Type: " + type +"\n ResourceId: " + resourceId + "\n Action: "+ action + "\n UserId: "+userId+"\n}";
-    }
 }
