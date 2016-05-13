@@ -1,8 +1,8 @@
-package io.corbel.event;
+package com.bq.corbel.event;
 
 import java.util.Map;
 
-import io.corbel.eventbus.EventWithSpecificDomain;
+import com.bq.corbel.eventbus.EventWithSpecificDomain;
 
 /**
  * @author Alberto J. Rubio
