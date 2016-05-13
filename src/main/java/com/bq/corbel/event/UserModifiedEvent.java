@@ -1,4 +1,4 @@
-package io.corbel.event;
+package com.bq.corbel.event;
 
 import java.util.Map;
 import java.util.Set;

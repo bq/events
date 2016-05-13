@@ -1,10 +1,10 @@
-package io.corbel.event;
+package com.bq.corbel.event;
 
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
 
-import io.corbel.eventbus.EventWithSpecificDomain;
+import com.bq.corbel.eventbus.EventWithSpecificDomain;
 
 public class AssetsEvent extends EventWithSpecificDomain {
     private String userId;

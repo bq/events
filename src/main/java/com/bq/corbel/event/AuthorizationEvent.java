@@ -1,7 +1,7 @@
-package io.corbel.event;
+package com.bq.corbel.event;
 
-import io.corbel.eventbus.Event;
-import io.corbel.eventbus.EventWithSpecificDomain;
+import com.bq.corbel.eventbus.Event;
+import com.bq.corbel.eventbus.EventWithSpecificDomain;
 
 /**
  * @author Rubén Carrasco

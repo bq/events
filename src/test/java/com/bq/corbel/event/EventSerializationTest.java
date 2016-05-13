@@ -1,7 +1,7 @@
-package io.corbel.event;
+package com.bq.corbel.event;
 
 import static org.fest.assertions.api.Assertions.assertThat;
-import io.corbel.eventbus.Event;
+import com.bq.corbel.eventbus.Event;
 
 import java.util.Collections;
 import java.util.Date;
