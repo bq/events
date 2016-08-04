@@ -21,6 +21,7 @@ public class UserCreatedEvent extends UserEvent {
             String country, Map<String, Object> properties, Set<String> scopes,
             Set<String> groups, boolean avoidNotification) {
         super(domainId, userId, email, username, firstName, lastName, profileUrl, phoneNumber, country, properties, scopes, groups);
+        this.avoidNotification=avoidNotification;
     }
 
     @Override
