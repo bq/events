@@ -10,15 +10,17 @@ public class UserDeletedEvent extends EventWithSpecificDomain {
     private String firstName;
     private String lastName;
     private String email;
+    private boolean avoidNotification;
 
     public UserDeletedEvent() {}
 
-    public UserDeletedEvent(String userId, String firstName, String lastName, String email, String domain) {
+    public UserDeletedEvent(String userId, String firstName, String lastName, String email, String domain, boolean avoidNotification) {
         super(domain);
         this.userId = userId;
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
+        this.avoidNotification = avoidNotification;
     }
 
     public String getUserId() {
@@ -35,6 +37,10 @@ public class UserDeletedEvent extends EventWithSpecificDomain {
 
     public String getEmail() {
         return email;
+    }
+
+    public boolean isAvoidNotification() {
+        return avoidNotification;
     }
 
     @Override
